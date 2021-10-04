@@ -1,63 +1,33 @@
 # DESAFIO de ROBÓTICA - 2021
 
-![banner](https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica/blob/webots-2021/resources/banner.png)
+![banner](https://github.com/Marcellabecker/desafiorobotica/blob/webots-2021/resources/banner.png)
 
-Este repositório contém os arquivos necessários para a realização da simulação do **DESAFIO** referente ao **Laboratório de Robótica e Sistemas Autônomos** para atuação como estagiário ou bolsista no **SENAI CIMATEC**.
+Challenge for volunteers at the Robotics and Autonomous Systems Laboratory, at SENAI CIMATEC, 2021.
+
+The objective of this challenge is to develop an autonomous navigation system, so that the robot can reach the illuminated region of the pre-defined map, avoiding all obstacles on the route within 2 minutes. The simulation was performed using Webots software, which is an open source and multi-platform desktop application used to simulate robots.
+
+the challenge is in the repository: https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica
 
 # Organização
 
 A organização das pastas é a seguinte:
 
-- `resources` - Arquivos de suporte geral.
+- `resources` - Resources used in the README and video of the simulation.
 
-- `webots_content` - Contém o **mundo** e o **controle** para a simulação do desafio. Você pode carregá-los dentro do simulador Webots.
+- `webots_content` - Contains **world** and **control** for the challenge simulation. You can load them inside the Webots simulator.
 
-# Instalação
+- `controllers` - Controller used for the challenge
 
-O simulador escolhido para este desafio é o Webots <https://cyberbotics.com/#cyberbotics>.
+# THE ROBOT
 
-Webots é multiplataforma, ou seja pode ser instalado em qualquer sistema operacional.
+! [pioneer] (https://github.com/Marcellabecker/desafiorobotica/blob/webots-2021/resources/banner.png)
 
-Faça o download em <https://github.com/cyberbotics/webots/releases/tag/R2021a>, escolhendo o seu sistema operacional.
+The robot used was the Pioneer 3-DX and he was able to navigate the map avoiding obstacles completing his objective in less than 2 minutes. To accomplish this task, the robot uses its 16 distance sensors and a light sensor was added: a light sensor. The light sensor tracks the local irradiance and sends a signal to the robot when it reads over 750 W/m2, which means it is close enough to the floor lamp.
 
-Para fazer o download deste repositório basta clonar numa pasta de sua `preferência`.
+# COntrole
 
-```
-$ git clone https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica.git
-``` 
+A navegação do robô pelo mapa é baseada em uma máquina de 4 estados que determinam se ele deve se mover para frente, virar à esquerda, direita ou parar quando chegar ao seu objetivo final. 
 
-# Desenvolvimento
+# Resultados
 
-O simulador é bem intuitivo, porém o candidato deve investir tempo para realizar alguns tutoriais disponíveis neste endereço >>> <https://cyberbotics.com/doc/guide/tutorials?tab-language=c#tutorials>.
-
-O robô a ser utilizado é o Pioneer 3-DX <https://cyberbotics.com/doc/guide/pioneer-3dx?tab-language=c#adepts-pioneer-3-dx>.
-
-Para executar o desafio, faça o seguinte:
-
-**1.** Abra o Webots.
-
-**2.** Com o Webots aberto, abra o mundo para este desafio, o mesmo está localizado em <https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica/blob/webots-2021/webots_content/pioneer3dx_desafio.wbt>.
-  
-**3.** Para que o robô chegue até a região da, o mesmo deve fazer uso de um controle. O controle as ser utilizado está em <https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica/blob/webots-2021/webots_content/desafio.c>. Veja que o controle não está otimizado para a realização da missão.
-
-**4.** Você deve alterar o script do controle `desafio` para realizar a **missão**. Não esqueça: para alterar você precisa saber o que fazer, por isso faça os tutoriais.
-
-# Cronograma e barema
-
-As informações das datas importantes deste desafio e os critérios adotados para a avaliação estão contidas neste link <https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica/blob/webots-2021/resources/pioneer3dx_desafio_cronograma.pdf>.
-
-# Aviso
-
-**Certifique-se de ler e entender todas as regras do desafio disponíveis em** <https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica/blob/webots-2021/resources/pioneer3dx_desafio_regras.pdf>
-
-
-# Dúvidas
-
-Se você tiver dúvidas sobre o desafio, pode entrar em contato: `marcoreis@fieb.org.br`.
-
-Dúvidas sobre o simulador e/ou implementação **NÃO** serão respondidas por e-mail.
-
-
-**Sem esforço não há recompensa!**
-
-'This is the way.'
+The video
