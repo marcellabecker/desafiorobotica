@@ -1,6 +1,6 @@
 # DESAFIO de ROBÓTICA - 2021
 
-![banner](https://github.com/Marcellabecker/desafiorobotica/blob/webots-2021/resources/banner.png)
+![banner](https://github.com/marcellabecker/desafiorobotica/blob/webots-2021/resources/banner.png)
 
 Challenge for volunteers at the Robotics and Autonomous Systems Laboratory, at SENAI CIMATEC, 2021.
 
@@ -20,7 +20,7 @@ A organização das pastas é a seguinte:
 
 # THE ROBOT
 
-! [pioneer] (https://github.com/Marcellabecker/desafiorobotica/blob/webots-2021/resources/banner.png)
+! [pioneer] (https://github.com/marcellabecker/desafiorobotica/blob/webots-2021/resources/pioneer.png)
 
 The robot used was the Pioneer 3-DX and he was able to navigate the map avoiding obstacles completing his objective in less than 2 minutes. To accomplish this task, the robot uses its 16 distance sensors and a light sensor was added: a light sensor. The light sensor tracks the local irradiance and sends a signal to the robot when it reads over 750 W/m2, which means it is close enough to the floor lamp.
 
