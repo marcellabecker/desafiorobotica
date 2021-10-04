@@ -143,7 +143,6 @@ int main() {
     }
     
     luminosity = wb_light_sensor_get_value(light_sensor);
-    printf("%d",luminosity);
     if (luminosity >= MIN_LUMINOSITY) 
       state = STOP;
 
