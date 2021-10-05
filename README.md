@@ -14,7 +14,7 @@ A organização das pastas é a seguinte:
 
 - `resources` - Resources used in the README and video of the simulation.
 
-- `webots_content` - Contains **world** and **control** for the challenge simulation. You can load them inside the Webots simulator.
+- `webots_content` - Contains **world**, you can load them inside the Webots simulator.
 
 - `controllers` - Controller used for the challenge
 
@@ -31,3 +31,8 @@ A navegação do robô pelo mapa é baseada em uma máquina de 4 estados que det
 # Resultados
 
 The video
+
+[![Video](resources/print.png)](https://www.youtube.com/watch?v=RftRevxZUOE)
+
+
+**It is the challenges that drive us forward and make us better!**
