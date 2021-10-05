@@ -140,6 +140,7 @@ int main() {
         wheel_weight_total[j] += sensors[i].wheel_weight[j] * speed_modifier;
     }
     
+     //light_sensor read function
     luminosity = wb_light_sensor_get_value(light_sensor);
     if (luminosity >= MIN_LUMINOSITY) 
       state = STOP;
@@ -183,6 +184,7 @@ int main() {
           state = FORWARD;
         }
         break;
+        // stop case is triggered when the challenge is completed
       case STOP:
         speed[0] = 0.0;
         speed[1] = 0.0;
