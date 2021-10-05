@@ -32,6 +32,8 @@ A navegação do robô pelo mapa é baseada em uma máquina de 4 estados que det
 
 The video shows the pioneer arriving at the luminous area and stopping, thus completing the proposed challenge.
 
+Click on the image below to watch the video:
+
 [![Video](resources/print.png)](https://www.youtube.com/watch?v=RftRevxZUOE)
 
 
