@@ -26,7 +26,7 @@ The robot used was the Pioneer 3-DX and he was able to navigate the map avoiding
 
 # CONTROL
 
-A navegação do robô pelo mapa é baseada em uma máquina de 4 estados que determinam se ele deve se mover para frente, virar à esquerda, direita ou parar quando chegar ao seu objetivo final. 
+The robot's navigation around the map is based on a 4-state machine that determines whether it should move forward, turn left, right or stop when it reaches its final objective.
 
 # RESULTS
 
