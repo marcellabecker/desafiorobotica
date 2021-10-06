@@ -10,7 +10,7 @@ The challenge is in the repository: https://github.com/Brazilian-Institute-of-Ro
 
 # ORGANIZATION
 
-A organização das pastas é a seguinte:
+Folder organization is as follows:
 
 - `resources` - Resources used in the README.
 
@@ -37,7 +37,7 @@ Thus, the division was made into four cases, they are:
 
 All distance sensors collect data from the environment that determines whether the robot should move forward or to either side. Each of the 16 distance sensors included in Pionner are found in the robot's control file (challenge_controller.c) and contain weight values for each wheel, which are based on the position of the sensor on the robot and show how its reading influences behavior of the two wheels. In addition, the weight value helps in decision making because, if the reading of any sensor drops below the set minimum value, it means that the robot is close to an obstacle and it must change direction using one of the cases above. In the end it was used to determine the robot behavior at all weight values on each wheel times a speed factor, which is dependent on both the sensor's reading ratio of the minimum distance value.
 
-Also part of the control is the light sensor that was added to complete the challenge, this sensor activates the STOP box when it detects a brightness greater than 750 W/m2 and thus the challenge is completed.
+Also part of the control is the light sensor that was added to complete the challenge, this sensor activates the STOP state when it detects a brightness greater than 750 W/m2 and thus the challenge is completed.
 
 # RESULTS
 
