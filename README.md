@@ -6,7 +6,7 @@ Challenge for volunteers at the Robotics and Autonomous Systems Laboratory, at S
 
 The objective of this challenge is to develop an autonomous navigation system, so that the robot can reach the illuminated region of the pre-defined map, avoiding all obstacles on the route within 2 minutes. The simulation was performed using Webots software, which is an open source and multi-platform desktop application used to simulate robots.
 
-the challenge is in the repository: https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica
+The challenge is in the repository: https://github.com/Brazilian-Institute-of-Robotics/desafiorobotica
 
 # ORGANIZATION
 
